@@ -15,3 +15,11 @@ Before running the application, make sure you have the following Python packages
 OpenCV (opencv-python)
 Pillow (Pillow)
 Tkinter (usually comes pre-installed with Python)
+
+
+How It Works
+Face Detection: The app uses OpenCV's pre-trained Haar Cascade Classifier to detect faces in images and video frames.
+Real-time Processing: Video face detection is handled using threading to avoid freezing the GUI during video processing.
+
+Contributing
+Feel free to fork the repository, submit issues, or create pull requests for new features or improvements.
